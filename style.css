@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #153677, #4e085f);
+    padding: 10px;
+
+}
+
+.todoapp{
+    width: 100%;
+    max-width: 540px;
+    background: #fff;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+
+.todoapp h2{
+    color: #002765;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.todoapp h2 img{
+    width: 40px;
+    margin-left: 10px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+
+}
+
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-weight: 14px;
+}
